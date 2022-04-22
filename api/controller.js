@@ -2,9 +2,9 @@
 import weather from "../services/weather.js";
 
 let properties = {
-  name: "tedane",
-  description: "des",
-  author: "author",
+  name: "node js microservices",
+  description: "Building microservices with node js",
+  author: "Tedane Blake",
 };
 let { name, description, author } = properties;
 
