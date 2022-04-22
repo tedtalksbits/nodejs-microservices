@@ -151,15 +151,30 @@ This is an example of how to list things you need to use the software and how to
    }
 
    ```
-4. in the root folder, create .env file. Paste your API key in the  `.env`
+4. In the root folder, create .env file. Paste your API key in the  `.env`
    ```
-   API_KEY=1234YOURAPIKEY;
+   API_KEY=1234YOURAPIKEY
    ```
+5. Start local server 
+   ```sh
+   npm start
+   ```
+   _**Note**: Server should be runnning on port `5608` make sure that port is not currently running other processes._
+
+   Check `http://localhost:5608`
+   You should see the text `"Hello world"`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Endpoints
+About endpoint: `localhost:5608/about`
+![about endpoint working](/static/images/about.png)
+
+Weather endpoint: `localhost:5608/weather`
+![weather endpoint working](/static/images/weather.png)
 
 <!-- ROADMAP -->
 
